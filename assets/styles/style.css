@@ -1,26 +1,95 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Poppins", sans-serif;
 }
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .a {
-    background: #20B2AA;
+  background: #20b2aa;
 }
 .b {
-    text-decoration: 0;
+  text-decoration: 0;
 }
 .button {
-    background: #20B2AA;
-    border: 0;
-    text-decoration: 0;
+  background: #20b2aa;
+  border: 0;
+  text-decoration: 0;
 }
 .button :hover {
-    background: #ffff;
+  background: #ffff;
 }
-.footer{
-   position:absolute;
-   bottom:0;
-   width:100%;
+.matdas {
+  margin-top: 2rem;
+}
+.row-kelas {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.kelas-card {
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #20b2aa;
+}
+
+.kelas-card a {
+  text-decoration: 0;
+  color: #ffffff;
+}
+
+.row-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.item-card {
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #202424d7;
+}
+
+.item-card a {
+  text-decoration: 0;
+  color: #ffffff;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 }
