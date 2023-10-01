@@ -74,6 +74,11 @@ body {
   width: 100%;
 }
 
+.tugas {
+  margin: 5px 20%;
+  text-align: justify;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
