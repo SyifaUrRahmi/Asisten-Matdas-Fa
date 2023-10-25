@@ -68,11 +68,6 @@ body {
   text-decoration: 0;
   color: #ffffff;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 
 .tugas {
   margin: 5px 20%;
@@ -85,16 +80,36 @@ body {
   html {
     font-size: 75%;
   }
+  .pengumuman {
+    margin: 25%;
+    margin-bottom: 2%;
+  }
 }
 /* Tablet */
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
+  .pengumuman {
+    margin: 15%;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .pengumuman {
+    margin: 5%;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
